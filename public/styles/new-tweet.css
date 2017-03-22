@@ -14,7 +14,12 @@ textarea {
 }
 
 .counter {
+    color: black;
     float: right;
+}
+
+.counter.overLimit {
+    color: red;
 }
 
 .new-tweet {
@@ -23,3 +28,5 @@ textarea {
     border: 1px #aaa solid;
     border-radius: 5px;
 }
+
+
