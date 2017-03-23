@@ -25,4 +25,21 @@
   font-weight: lighter;
   float: left;
 }
+
+#nav-bar .btn-compose {
+  margin-top: 20px;
+  width: 80px; 
+  height: 40px;
+  float: right;
+  border-radius: 5px;
+  border: 1px black solid;
+  background: white;
+  color: #00a087;
+}
+
+#nav-bar .btn-compose:hover {
+  color: black;
+  transition: 1s all ease-in;
+}
+
   
